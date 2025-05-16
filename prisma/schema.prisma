@@ -19,3 +19,11 @@ model preorder {
   qty Int
   is_paid Boolean
 }
+
+model package {
+  id  Int @id @default(autoincrement())
+  kode String
+  nama String
+  description String
+
+}
