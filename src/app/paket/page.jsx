@@ -75,8 +75,8 @@ const handleDelete = async (id) => {
             onClick={() => setFormVisible(!formVisible)}>
             {formVisible ? 'Tutup Form' : 'Tambah Data'}
         </button>
-        <button style={{ marginRight: '10px', float: 'right' }} onClick={() => window.location.href = '/customer'}>Kelola Customer</button>
-        <button style={{ marginRight: '10px', float: 'right' }} onClick={() => window.location.href = '/preorder'}>Kelola Preorder</button>
+        <button style={{ marginRight: '10px', float: 'right' }} onClick={() => window.location.href = '/customer'}>Pergi ke Customer</button>
+        <button style={{ marginRight: '10px', float: 'right' }} onClick={() => window.location.href = '/preorder'}>Pergi ke Preorder</button>
         {formVisible && (
             <div className={styles.formWrapper}>
                 <h3>Input Data Baru</h3>
